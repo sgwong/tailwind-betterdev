@@ -1,9 +1,89 @@
 function Main() {
   return (
-    <div class="flex min-h-screen items-center justify-center bg-teal-400 text-6xl text-teal-100">
-      <h2>hello i am a website!</h2>
+    <div>
+      <HeaderNavigation />
+      <Hero />
+      <Overview />
+      <AboutMe />
+      <WhatYouWillLearn />
+      <WhatYouWillBuild />
+      <Pricing />
+      <FAQ />
+      <Footer />
     </div>
   );
+}
+
+function HeaderNavigation() {
+  return (
+    <div class="bg-blue-200 text-gray-600">
+      <div class="container mx-auto flex justify-between px-6 py-6 lg:px-0">
+        {/* left header section */}
+        <div class="flex items-center space-x-4">
+          <a href="#" class="text-2xl font-bold text-teal-800">
+            Beginner Tailwind
+          </a>
+          <a href="#" class="hover:text-gray-900">
+            About
+          </a>
+          <a href="#" class="hover:text-gray-900">
+            Waht You'll Learn
+          </a>
+          <a href="#" class="hover:text-gray-900">
+            Pricing
+          </a>
+          <a href="#" class="hover:text-gray-900">
+            FAQ
+          </a>
+        </div>
+
+        {/* right header section */}
+        <div class="space-x-4">
+          <a href="#" class="hover:text-gray-900">
+            Login
+          </a>
+          <a
+            href="#"
+            class="inline-block rounded bg-purple-200 p-3 text-purple-600 shadow transition duration-500 hover:bg-purple-400 hover:text-purple-300 hover:shadow-xl"
+          >
+            Get the Course
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Hero() {
+  return <div></div>;
+}
+
+function Overview() {
+  return <div></div>;
+}
+
+function AboutMe() {
+  return <div></div>;
+}
+
+function WhatYouWillLearn() {
+  return <div></div>;
+}
+
+function WhatYouWillBuild() {
+  return <div></div>;
+}
+
+function Pricing() {
+  return <div></div>;
+}
+
+function FAQ() {
+  return <div></div>;
+}
+
+function Footer() {
+  return <div></div>;
 }
 
 export default Main;
